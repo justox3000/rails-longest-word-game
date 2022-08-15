@@ -1,0 +1,6 @@
+<h1>hhh</h1>
+<% if @found %>
+<p>Nice! <strong><%= @submitted_word.join %></strong> is a valid English word!</p>
+<%else%>
+<p> Sorry, but <strong><%= @submitted_word.join %></strong> isn't a valid English word!</p>
+<% end %>
